@@ -11,4 +11,4 @@ if age >=18:
         print("you are a stupid")
         
 else:
-    print("go to your home and masterbate yourself")
+    print("go to your home and masterbate")

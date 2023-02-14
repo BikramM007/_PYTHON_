@@ -19,6 +19,7 @@ func_with_name("Bikram")
 def func_position(a, b, c):
     print(f"tomato rate of today is {a}")
     print(f"banana rate of today is {b}")
-    print(f"condom rate of today {c}")
+    print(f"apple rate of today {c}")
 
 func_position(b = 100, a = 200, c = 800)
+func_position(b = 200, a = 300, c = 500)
