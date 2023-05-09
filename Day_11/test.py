@@ -1,5 +1,5 @@
 import random
-import os
+import click
 from art import logo
 def deal_card():
   """Returns a random card from the deck."""
@@ -72,5 +72,5 @@ def play_game():
   print(compare(user_score, computer_score))
 
 while input("Do you want to play a game of Blackjack? Type 'y' or 'n': ") == "y":
-  os.shutdown()
+  click.clear()
   play_game()

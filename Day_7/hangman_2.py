@@ -2,7 +2,7 @@
 import random
 word_list = ["aardvark", "baboon", "camel"]
 chosen_word = random.choice(word_list)
-print(f'Pssst, the solution is {chosen_word}.')
+print(f'Bikram, The solution is {chosen_word}.')
 
 
 display = []

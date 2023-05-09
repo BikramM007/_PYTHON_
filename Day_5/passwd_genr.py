@@ -28,7 +28,7 @@ for s in range(1, nr_symbols+1):
     #print(password)
 
 print(password)
-
+print(f"t")
 
 # password_list= []
 # for l in range(1, nr_letters+1):

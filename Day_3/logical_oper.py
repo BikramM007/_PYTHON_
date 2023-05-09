@@ -23,4 +23,4 @@ if height > 120:
 
     print(f"Your final bill is {bill}")
 else:
-    print("you are not alligable for rollercoaster")    
+    print("you are not alligable for rollercoaster")

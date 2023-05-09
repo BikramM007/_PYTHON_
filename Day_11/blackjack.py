@@ -1,5 +1,5 @@
 import random
-
+from art import logo
 def deal_card():
     """return a random card from desk"""
     cards = [11, 2, 3, 4, 5, 6, 7, 8, 9, 10, 10, 10, 10]
@@ -17,7 +17,7 @@ def calculate_score(cards):
     return sum(cards)
 
 def compare(user_score, computer_score):
-    if user_score > 21 and computer > 21:
+    if user_score > 21 and computer_score > 21:
         return "You went over. You lose"
 
     if user_score == computer_score:
@@ -48,5 +48,4 @@ def play_game():
         user_card.append(deal_card())
         computer_card.append(deal_card())
 
-    while not is_game_over()
 
